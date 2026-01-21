@@ -46,26 +46,24 @@ CSC3600Project/
 ├── Fake.csv             # Fake news dataset
 ├── True.csv             # Real news dataset
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy code
+```
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
 git clone https://github.com/hannbella18/CSC3600Project.git
 cd CSC3600Project
+
 2️⃣ Install Dependencies
-bash
-Copy code
 pip install flask pandas scikit-learn requests beautifulsoup4
+
 3️⃣ Run the Application
-bash
-Copy code
 python app2.py
 The application will be available at:
-
-cpp
-Copy code
 http://127.0.0.1:5000/
-🧠 Model Details
+
+---
+### 🧠 Model Details
 🔹 Algorithms Used
 Logistic Regression
 Baseline model for binary classification.
@@ -79,12 +77,10 @@ Ensemble technique that optimizes predictive errors.
 Random Forest
 Reduces overfitting by averaging multiple decision trees.
 
-👤 Author
-Hannbella
-Computer Science Student @ UPM
+---
 
-GitHub: https://github.com/hannbella18
+## 📄 License
 
-📄 License
-This project is developed for academic purposes under the CSC3600 course.
+This project is licensed under the **MIT License**.
+Feel free to use and modify for academic purposes.
 
